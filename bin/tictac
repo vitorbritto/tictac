@@ -1,0 +1,42 @@
+#!/usr/bin/env node
+
+'use strict';
+
+
+// =====================================================
+// CONFIGURATION
+// =====================================================
+
+var tictac = require('commander'),
+    prompt = require('prompt'),
+    config = require('../lib'),
+    pkgver = require('../package').version,
+    task   = config.defineTask;
+
+
+// =====================================================
+// MAIN FUNCTION
+// =====================================================
+
+var runTask = function (err, result) {
+    task(result.task, result.time);
+};
+
+
+// =====================================================
+// CLI
+// =====================================================
+
+// Options
+tictac
+    .version('Tic Tac v' + pkgver, '-v, --version')
+    .parse(process.argv);
+
+// Start Prompt
+prompt.start();
+prompt.get(['task', 'time'], runTask);
+
+// Help
+if (process.argv.length === 1) {
+    tictac.help();
+}

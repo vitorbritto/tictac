@@ -1,0 +1,37 @@
+{
+  "name": "tictac",
+  "version": "0.1.0",
+  "description": "Tic tac is a time manager for tasks.",
+  "author": {
+    "name": "Vitor Britto",
+    "email": "code@vitorbritto.com.br",
+    "url": "http://vitorbritto.com.br"
+  },
+  "main": "index.js",
+  "bin": "bin/tictac",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vitorbritto/tictac"
+  },
+  "bugs": {
+    "url": "https://github.com/vitorbritto/tictac/issues"
+  },
+  "licenses": {
+    "type": "MIT",
+    "url": "http://vitorbritto.mit-license.org/"
+  },
+  "dependencies": {
+    "simlog": "^0.1.5",
+    "prompt": "^0.2.13",
+    "commander": "^2.2.0",
+    "beep": "git://github.com/vitorbritto/beep.git"
+  },
+  "devDependencies": {
+    "gulp": "^3.6.2",
+    "gulp-mocha": "^0.4.1",
+    "gulp-jshint": "^1.5.5",
+    "jshint-stylish": "^0.2.0",
+    "mocha": "^1.18.2",
+    "chai": "~1.9.1"
+  }
+}
