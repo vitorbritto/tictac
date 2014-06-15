@@ -1,9 +1,11 @@
-![tictac Logo](src/tictac.jpg "tictac")
+![Tic Tac Logo](src/tictac.jpg "Tic Tac")
 
 
 ## Welcome
 
 _Tic Tac_ is a time manager for tasks.
+
+![Example](src/example.jpg "example")
 
 > Note: only tested on **Mac OSX**.
 
