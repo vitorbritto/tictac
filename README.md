@@ -1,7 +1,7 @@
 ![Tic Tac Logo](src/tictac.jpg "Tic Tac")
 
 
-## What is Tic Tac?
+## What is Tic Tac? [![NPM version](https://badge.fury.io/js/tictac.svg)](http://badge.fury.io/js/tictac)
 
 _Tic Tac_ is a time manager for tasks and also the name given for a method that I use to manage the time in my work environment.
 
