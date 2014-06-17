@@ -24,9 +24,9 @@ First of all, make sure you have [Node.js](http://nodejs.org/) installed.
 $ npm install tictac -g
 ```
 
-> Note: In Ubuntu you need to have __mpg123__ installed, if necessary run: 
+> Note: for Linux/Ubuntu you must have/install [mpg123](https://github.com/dominictarr/mpg123).
 ```bash
-$ sudo apt-get install mpg123
+$ [sudo] apt-get install mpg123
 ```
 
 ## Usage
