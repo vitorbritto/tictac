@@ -11,7 +11,8 @@ var tictac = require('commander'),
     prompt = require('prompt'),
     config = require('../lib'),
     pkgver = require('../package').version,
-    task   = config.defineTask;
+    task   = config.defineTask,
+    logger = config.defineLog;
 
 
 // =====================================================
@@ -20,6 +21,7 @@ var tictac = require('commander'),
 
 var runTask = function (err, result) {
     task(result.task, result.time);
+    logger(result.task, result.time);
 };
 
 

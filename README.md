@@ -1,7 +1,7 @@
 ![Tic Tac Logo](src/tictac.jpg "Tic Tac")
 
 
-## What is Tic Tac? [![NPM version](https://badge.fury.io/js/tictac.svg)](http://badge.fury.io/js/tictac)
+## What is Tic Tac? [![NPM version](https://badge.fury.io/js/tictac.svg)](http://badge.fury.io/js/tictac) [![GitHub version](https://badge.fury.io/gh/vitorbritto%2Ftictac.svg)](http://badge.fury.io/gh/vitorbritto%2Ftictac)
 
 _Tic Tac_ is a time manager for tasks and also the name given for a method that I use to manage the time in my work environment.
 
@@ -21,10 +21,11 @@ Be aware that these techniques (Tic Tac and Pomodoro), does not refer to the act
 First of all, make sure you have [Node.js](http://nodejs.org/) installed.
 
 ```bash
-$ npm install tictac -g
+$ [sudo] npm install tictac -g
 ```
 
-> Note: for Linux/Ubuntu you must have/install [mpg123](https://github.com/dominictarr/mpg123).
+**Note:** for Linux/Ubuntu you must have/install [mpg123](https://github.com/dominictarr/mpg123).
+
 ```bash
 $ [sudo] apt-get install mpg123
 ```
@@ -37,7 +38,7 @@ $ task: [enter task name]
 $ time: [enter time (in minutes)]
 ```
 
-> Use `tictac --help` or `tictac -h` for more details.
+**Help:** use `tictac --help` or `tictac -h` for more details.
 
 ### Example
 
@@ -46,6 +47,11 @@ $ tictac
 $ task: Reply Emails
 $ time: 25
 ```
+
+## Features
+
+- Logger: create a log file for each task inside `.tictac` directory in your user path.
+
 
 ## Contribute
 
