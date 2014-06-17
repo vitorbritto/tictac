@@ -13,7 +13,7 @@ Be aware that these techniques (Tic Tac and Pomodoro), does not refer to the act
 
 ![Example](src/example.jpg "example")
 
-> Note: only tested on **Mac OSX**.
+> Note: tested on **Mac OSX** and **Ubuntu**.
 
 
 ## Install
@@ -22,6 +22,11 @@ First of all, make sure you have [Node.js](http://nodejs.org/) installed.
 
 ```bash
 $ npm install tictac -g
+```
+
+> Note: for Linux/Ubuntu you must have/install [mpg123](https://github.com/dominictarr/mpg123).
+```bash
+$ [sudo] apt-get install mpg123
 ```
 
 ## Usage
