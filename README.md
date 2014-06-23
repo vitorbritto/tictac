@@ -3,6 +3,8 @@
 
 ## What is Tic Tac? [![NPM version](https://badge.fury.io/js/tictac.svg)](http://badge.fury.io/js/tictac) [![GitHub version](https://badge.fury.io/gh/vitorbritto%2Ftictac.svg)](http://badge.fury.io/gh/vitorbritto%2Ftictac)
 
+[![NPM](https://nodei.co/npm/tictac.png?downloads=true)](https://nodei.co/npm/tictac/)
+
 _Tic Tac_ is a time manager for tasks and also the name given for a method that I use to manage the time in my work environment.
 
 This method has some similarities with the Pomodoro technique considering how time is managed to increase mental alertness.
