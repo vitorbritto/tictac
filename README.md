@@ -53,7 +53,7 @@ $ time: 25
 ## Features
 
 - Logger: create a log file for each task inside `.tictac` directory in your user path.
-
+- History: show log history for previous tasks executed in tictac.
 
 ## Contribute
 

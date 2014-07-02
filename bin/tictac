@@ -33,7 +33,7 @@ var runTask = function (err, result) {
 // Options
 tictac
     .version('Tic Tac v' + pkgver, '-v, --version')
-    .option('-H, --history', 'shows tasks')
+    .option('-H, --history', 'shows tasks history')
     .parse(process.argv);
 
 if (tictac.history) {
