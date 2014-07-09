@@ -53,10 +53,22 @@ $ time: 25
 ## Features
 
 - Logger: create a log file for each task inside `.tictac` directory in your user path.
-- History: show log history for previous tasks executed in tictac.
+
+## Notify
+You can receive notifications when the task finishes.
+
+**Important!** To use notifications, you need to install some dependencies.
+
+Check the [installation section](https://github.com/visionmedia/node-growl#installation)
+
+```
+$ tictac -g
+```
+
+## History
+Show log history for previous tasks executed in tictac.
 
 ## Contribute
-
 Feel free to [contribute](https://github.com/vitorbritto/tictac/pulls) with this project or leave a [suggestion](https://github.com/vitorbritto/tictac/issues).
 
 
