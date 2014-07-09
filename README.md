@@ -52,20 +52,23 @@ $ time: 25
 
 ## Features
 
-- Logger: create a log file for each task inside `.tictac` directory in your user path.
+### Logger
+Create a log file for each task inside `.tictac` directory in your user path.
 
-## Notify
+### Notify
 You can receive notifications when the task finishes.
 
-**Important!** To use notifications, you need to install some dependencies.
+**Requirements**
 
-Check the [installation section](https://github.com/visionmedia/node-growl#installation)
+To use Grolw notifications, you need to install [node-growl](https://github.com/visionmedia/node-growl#installation).
+
+**Usage**
 
 ```
 $ tictac -g
 ```
 
-## History
+### History
 Show log history for previous tasks executed in tictac.
 
 ## Contribute

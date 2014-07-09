@@ -21,7 +21,7 @@ var tictac = require('commander'),
 // =====================================================
 
 var runTask = function (err, result) {
-    task(result.task, result.time, { growl: tictac.growl });
+    task(result.task, result.time, {growl: tictac.growl});
     logger(result.task, result.time);
 };
 
@@ -33,18 +33,18 @@ var runTask = function (err, result) {
 // Options
 tictac
     .version('Tic Tac v' + pkgver, '-v, --version')
-    .option('-H, --history', 'shows tasks history')
-    .option('-g, --growl', 'shows a notification using the Growl when the task finishes')
+    .option('-H, --history', 'output tasks history')
+    .option('-g, --growl', 'output growl notification when current task finishes')
     .parse(process.argv);
 
+// Init Help
 if (args.length === 1) {
-    // Help
     tictac.help();
     return;
 }
 
+// Init History Log
 if (tictac.history) {
-    // History
     hist();
     return;
 }
