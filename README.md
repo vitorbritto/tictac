@@ -18,7 +18,7 @@ Be aware that these techniques (Tic Tac and Pomodoro), does not refer to the act
 > Note: tested on **Mac OSX** and **Ubuntu**.
 
 
-## Install
+## Installation
 
 First of all, make sure you have [Node.js](http://nodejs.org/) installed.
 
