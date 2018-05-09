@@ -60,7 +60,7 @@ You can receive notifications when the task finishes.
 
 **Requirements**
 
-To use Grolw notifications, you need to install [node-growl](https://github.com/visionmedia/node-growl#installation).
+To use Growl notifications, you need to install [node-growl](https://github.com/visionmedia/node-growl#installation).
 
 **Usage**
 
